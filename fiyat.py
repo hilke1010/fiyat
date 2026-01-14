@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 st.set_page_config(page_title="Akaryakıt Raporlama Sistemi", layout="wide")
-st.title("⛽ Kurumsal Akaryakıt Analiz Paneli")
+st.title("⛽  Analiz Paneli")
 
 # --- SABİT DOSYA AYARI ---
 # Klasörde bu isimde bir dosya varsa otomatik onu açar
@@ -196,4 +196,5 @@ if df is not None:
                 height=800
             )
         else:
+
             st.warning("Veri yok.")
